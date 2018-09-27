@@ -1,0 +1,66 @@
+:root .css3-metro-dropdown option, :root .css3-metro-dropdown select, :root .css3-metro-dropdown::after, :root .css3-metro-dropdown:after {
+	color: #fff;
+}
+
+:root .css3-metro-dropdown select, :root .css3-metro-dropdown::after, :root .css3-metro-dropdown:after {
+	display: block;
+	background: #f2b02e;
+}
+
+:root .css3-metro-dropdown option, :root .css3-metro-dropdown select {
+	padding: 8px;
+}
+
+:root .css3-metro-dropdown {
+	position: relative;
+	display: inline-block;
+	border: 0;
+}
+
+	:root .css3-metro-dropdown::after {
+		content: "\25bc";
+		position: absolute;
+		top: 0;
+		right: 0;
+		display: block;
+		width: 32px;
+		font-size: 12px;
+		line-height: 34px;
+		text-align: center;
+		-webkit-pointer-events: none;
+		-moz-pointer-events: none;
+		pointer-events: none;
+	}
+
+	:root .css3-metro-dropdown select {
+		height: 34px;
+		border: 0;
+		vertical-align: middle;
+		font: 400 12px/14px "Segoe UI", Arial, Helvetica, Sans-serif;
+		outline: 0;
+	}
+
+	:root .css3-metro-dropdown option {
+		background: #fff;
+		color: #333;
+	}
+
+:root .css3-metro-dropdown-color-orange select, :root .css3-metro-dropdown-color-orange::after, :root .css3-metro-dropdown-color-orange:after {
+	background: #fa6800;
+}
+
+:root .css3-metro-dropdown-color-lightOrange select, :root .css3-metro-dropdown-color-lightOrange::after, :root .css3-metro-dropdown-color-lightOrange:after {
+	background: #c29008;
+}
+
+:root .css3-metro-dropdown-color-yellow select, :root .css3-metro-dropdown-color-yellow::after, :root .css3-metro-dropdown-color-yellow:after {
+	background: #e3c800;
+}
+
+:root .css3-metro-dropdown-color-amber select, :root .css3-metro-dropdown-color-amber::after, :root .css3-metro-dropdown-color-amber:after {
+	background: #f0a30a;
+}
+
+:root .css3-metro-dropdown-color-lightBlue select, :root .css3-metro-dropdown-color-lightBlue::after, :root .css3-metro-dropdown-color-lightBlue:after {
+	background: #4390df;
+}
